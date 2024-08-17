@@ -26,6 +26,7 @@ As you can see the code is clean, well aligned and well designed.
 
 ### Issues
 > couldn't login to the system
+
 > no prepared statements
 
 ### Solved
