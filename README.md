@@ -31,4 +31,5 @@ As you can see the code is clean, well aligned and well designed.
 
 ### Solved
 > allowes to loggin
+
 > added prepared statements
