@@ -33,3 +33,16 @@ As you can see the code is clean, well aligned and well designed.
 > allowes to loggin
 
 > added prepared statements
+
+
+
+> [!NOTE]
+> This code is not mine, just added some improvements to it. If you find any issues please 🙏 do the needfull.
+
+
+
+
+
+
+
+
