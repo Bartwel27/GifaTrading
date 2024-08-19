@@ -36,7 +36,9 @@ As you can see the code is clean, well aligned and well designed.
 
 > now able to sign up
 
-> added some ubdated hashing algorithms 
+> hashing algorithms
+
+> verifying hashed data
 
 > added prepared statements
 
