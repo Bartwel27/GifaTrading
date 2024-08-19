@@ -4,6 +4,7 @@
 <head>
   <title>Registration system PHP and MySQL</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
 <nav>
@@ -38,7 +39,7 @@
         }
         
     </script>
-    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    <script src="htps://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
  
 	<div class="container">
 	<div class="header">

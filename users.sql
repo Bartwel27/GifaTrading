@@ -32,14 +32,27 @@ CREATE TABLE IF NOT EXISTS `users` (
   `id` int NOT NULL AUTO_INCREMENT,
   `username` varchar(25) NOT NULL,
   `email` varchar(50) NOT NULL,
-  `password` varchar(25) NOT NULL,
+  `password` varchar(115) NOT NULL,
   `currency` varchar(15) NOT NULL,
   PRIMARY KEY (`id`)
-); 
+);
+ 
+    /* -- OR -- */
+-- use this to configure your table
+create table users (
+  id int(11) not null primary key auto_increment,
+  varchar username(25) not null,
+  varchar email(25) not null,
+  varchar password(115) not null,
+  varchar currency(25) not null,  
+);
 --
 -- Dumping data for table `users`
 --
-
+/*
+ NOTE:
+  Dont use this becouse your code is
+  using a different hashing algorithim
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `currency`) VALUES
 (1, 'Hassan Banda', 'hb1@gmail.com', 'e10adc3949ba59abbe56e057f', ''),
 (2, 'Ramona Chaks', 'rchaks@gmail.com', '513689a21ca93615f43feec52', ''),
@@ -50,15 +63,9 @@ INSERT INTO `users` (`id`, `username`, `email`, `password`, `currency`) VALUES
 (10, 'james', 'jamesb@gmail.com', '202cb962ac59075b964b07152', ''),
 (11, 'bwalya mumba', 'bm@gmail.com', 'b59c67bf196a4758191e42f76', ''),
 (12, 'kennedy mwewa', 'km@gmail.com', '202cb962ac59075b964b07152', '');
-COMMIT;
+COMMIT;*/
 
-create table users (
-  id int(11) not null primary key auto_increment,
-  varchar username(25) not null,
-  varchar email(25) not null,
-  varchar password(25) not null,
-  varchar currency(25) not null,  
-);
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
